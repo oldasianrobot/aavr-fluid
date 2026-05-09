@@ -1,16 +1,11 @@
-# React + Vite
+# This Is Not A Gap — Fluid Record
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the second iteration in an ongoing design project examining anti-Asian violence and racism in America through data, absence, and the structural limits of counting.
 
-Currently, two official plugins are available:
+The work draws from two fundamentally incompatible datasets: FBI Hate Crime Statistics (1992–2023), which counts criminal acts investigated and confirmed by law enforcement, and STOP AAPI Hate (March 2020–2024), a community self-reporting platform that records any discriminatory act — criminal or not. In 2023, the FBI recorded 407 anti-Asian incidents. STOP AAPI Hate has received 12,803 reports across five years. Neither number is wrong. Both are floors.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The canvas is interactive. Move your cursor and particles emerge — each drawing its color from a real offense type, its weight and trail length from a real incident count. The trails follow a turbulence-driven flow field, curve through their own history, and fade. When no one is present, three autonomous bots continue moving through the space, generating data whether witnessed or not.
 
-## React Compiler
+The gaps in the data are preserved, not cleaned. Years where no count survived. A 2013 reclassification that made violence look like decline. A 2021 NIBRS transition that dropped 3,300 agencies in the year of the highest recorded spike. A retroactive taxonomy revision in 2023 that quietly removed 817 incidents from the historical record. A 2024 that has no number yet.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+These are not data quality problems. They are a record for how government agencies has chosen to see — and not see — anti-Asian violence and racism in America. The absence is evidence. This work does not resolve the gap between what was counted and what was lived. It makes that gap visible, briefly, before it fades.
