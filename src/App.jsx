@@ -1,15 +1,19 @@
 import { MetaRow } from './components/MetaRow'
 import { GenerativeCanvas } from './components/GenerativeCanvas'
 import { DataStreamRow } from './components/DataStreamRow'
+import { Analytics } from '@vercel/analytics/react'
 import styles from './App.module.css'
 
 function App() {
   return (
-    <div className={styles.appFrame}>
-      <MetaRow />
-      <GenerativeCanvas />
-      <DataStreamRow />
-    </div>
+    <>
+      <div className={styles.appFrame}>
+        <MetaRow />
+        <GenerativeCanvas />
+        <DataStreamRow />
+      </div>
+      <Analytics />
+    </>
   )
 }
 
